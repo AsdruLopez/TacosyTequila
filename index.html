@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌮 Tacos y Tequila - Menú Digital Mexicano</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+            <h1>🌮 TACOS Y TEQUILA 🌮</h1>
+            <p class="tagline">Auténtica Comida Mexicana</p>
+        </div>
+        <nav>
+            <a href="#productos">Menú</a>
+            <a href="#carrito">Carrito</a>
+            <a href="#info">Info</a>  
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>📋 Nuestros Productos</h2>
+            <input type="text" id="search-input" placeholder="🔍 Buscar producto...">
+            <div id="lista-productos"></div>
+        </section>
+
+        <section id="carrito">
+            <h2>🛒 Carrito de Compras</h2>
+            <div id="lista-carrito"></div>
+        </section>
+
+        <section id="info">
+            <h2>ℹ️ Información de Contacto</h2>
+            <div class="info-container">
+                <div class="info-card">
+                    <h3>📱 Contactanos</h3>
+                    <p><a href="https://wa.me/50376367899?text=Hola%20quiero%20hacer%20un%20pedido">+503 7636 7899 </a></p>
+                    <p class="info-desc">Llámanos para hacer tu pedido</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>🌐 Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61577002985404&__cft__[0]=AZXxLNQXQ5fFFlpgcLCynoFveGNwvmsHH_9oHc4pVaX-an_9E6mLdrRbMEOxwf16L-98FI36ugTpNIA3ugqbnePfnB16Y9RRKIOejHxLwOGxJlNqyjn-fqugjC_EuHHM-33ltpFQmPKF1kl6sWENrxTS8NccD99VJV8WchRw4S5lXXwlAL_qVUNPcROxkM4szUqybLb0HtMV0mnhEBJNnDC8&__tn__=-UC%2CP-R" target="_blank">Facebook</a>
+                        <a href="https://wa.me/50376367899?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>🏠 Ubicación</h3>
+                    <p>Calle Principal a Zacatecoluca</p>
+                    <p>Zacatecoluca, El Salvador</p>
+                    <p class="info-desc">Abierto de 11am a 11pm</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>📧 Email</h3>
+                    <p><a href="mailto:info@tacosytequila.com">info@tacosytequila.com</a></p>
+                    <p class="info-desc">Envíanos tus preguntas</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="background.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
