@@ -13,7 +13,7 @@ let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 let productosFiltrados = [...productos];
 
 function formatoMoneda(precio) {
-    return `€${precio.toFixed(2)}`;
+    return `$${precio.toFixed(2)}`;
 }
 
 function renderProductos() {
